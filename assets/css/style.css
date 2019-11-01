@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+#container {
+    padding: 75px;
+    margin: 75px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+#col-sm {
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+div {
+    text-align: center;
+}
+
+/* font-family: Benguiat-Bold; 
+@font-face { font-family: Benguiat-Bold; src: url('BenguiatBold.ttf'); } */
