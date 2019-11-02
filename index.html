@@ -9,33 +9,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
 
-    <body background="assets/images/stranger-things6.jpg"></body> 
+    <body>
     <!-- Jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <div id= "container">
         <div class="jumbotron jumbotron-fluid">
             <!--Header Text-->
             <h1><strong>STRANGER THINGS TRIVIA</strong></h1>
-            <h2>Time Remaining: <span id="Time Remaining"></span></h2>
+            <h2>Time Remaining: <span id="timeRemaining"></span></h2>
             <p id="userGuess">YOU WILL HAVE TWO MINUTES TO GUESS THE CORRECT ANSWERS</p>
 
             <br>
+            <button id="start">START</button>
             <!--QUESTIONS-->
+            <div id="QUESTIONS">
             <!--Question 1-->
             <p>In what year does season one take place?</p>
             <div class="container">
                 <div class="row">
                 <div class="col-sm">
-                <button>1987</button>
+                <button class=1>1987</button>
                 </div>
                 <div class="col-sm">
-                <button>1990</button>
+                <button class=1>1990</button>
                 </div>
                 <div class="col-sm">
-                <button>1980</button>
+                <button class=1>1980</button>
                 </div>
                 <div class="col-sm">
-                <button>1984</button>
+                <button class=1>1984</button>
                 </div>
                 </div>
                 </div>
@@ -45,16 +47,16 @@
             <div class="container">
                 <div class="row">
                 <div class="col-sm">
-                <button>candyland</button>
+                <button class=2>gryphons and gargoyles</button>
                 </div>
                 <div class="col-sm">
-                <button>shutes and ladders</button>
+                <button class=2>shutes and ladders</button>
                 </div>
                 <div class="col-sm">
-                <button>dungeons and dragons</button>
+                <button class=2>dungeons and dragons</button>
                 </div>
                 <div class="col-sm">
-                <button>catan</button>
+                <button class=2>catan</button>
                 </div>
                 </div>
                 </div>
@@ -64,16 +66,16 @@
             <div class="container">
                 <div class="row">
                 <div class="col-sm">
-                <button>montauk</button>
+                <button class=3>montauk</button>
                 </div>
                 <div class="col-sm">
-                <button>finding will</button>
+                <button class=3>finding will</button>
                 </div>
                 <div class="col-sm">
-                <button>eleven</button>
+                <button class=3>eleven</button>
                 </div>
                 <div class="col-sm">
-                <button>hawkins high</button>
+                <button class=3>hawkins high</button>
                 </div>
                 </div>
                 </div>
@@ -83,16 +85,16 @@
             <div class="container">
                 <div class="row">
                 <div class="col-sm">
-                <button>elle</button>
+                <button class=4>elle</button>
                 </div>
                 <div class="col-sm">
-                <button>katie</button>
+                <button class=4>katie</button>
                 </div>
                 <div class="col-sm">
-                <button>june</button>
+                <button class=4>june</button>
                 </div>
                 <div class="col-sm">
-                <button>jane</button>
+                <button class=4>jane</button>
                 </div>
                 </div>
                 </div>
@@ -102,16 +104,16 @@
             <div class="container">
                 <div class="row">
                 <div class="col-sm">
-                <button>max</button> 
+                <button class=5>max</button> 
                 </div>
                 <div class="col-sm">
-                <button>pollywog</button>
+                <button class=5>pollywog</button>
                 </div>
                 <div class="col-sm">
-                <button>d'artagnan</button>
+                <button class=5>d'artagnan</button>
                 </div>
                 <div class="col-sm">
-                <button>lucas</button>
+                <button class=5>lucas</button>
                 </div>
                 </div>
                 </div>
@@ -121,16 +123,16 @@
             <div class="container">
                 <div class="row">
                 <div class="col-sm">
-                <button>7</button>
+                <button class=6>7</button>
                 </div>
                 <div class="col-sm">
-                <button>4</button>
+                <button class=6>4</button>
                 </div>
                 <div class="col-sm">
-                <button>2</button>
+                <button class=6>2</button>
                 </div>
                 <div class="col-sm">
-                <button>5</button>
+                <button class=6>5</button>
                 </div>
                 </div>
                 </div>
@@ -140,16 +142,16 @@
             <div class="container">
                 <div class="row">
                 <div class="col-sm">
-                <button>the nether</button>
+                <button class=7>the nether</button>
                 </div>
                 <div class="col-sm">
-                <button>the shadowlands</button>
+                <button class=7>the shadowlands</button>
                 </div>
                 <div class="col-sm">
-                <button>the upside down</button>
+                <button class=7>the upside down</button>
                 </div>
                 <div class="col-sm">
-                <button>the darkness</button>
+                <button class=7>the darkness</button>
                 </div>
                 </div>
                 </div>
@@ -159,16 +161,16 @@
             <div class="container">
                 <div class="row">
                 <div class="col-sm">
-                <button>she lives with her mother</button> 
+                <button class=8>she lives with her mother</button> 
                 </div>
                 <div class="col-sm">
-                <button>she is a figment of Hoppers imagination</button>
+                <button class=8>she is a figment of Hoppers imagination</button>
                 </div>
                 <div class="col-sm">
-                <button>she doesn't talk to her dad anymore</button> 
+                <button class=8>she doesn't talk to her dad anymore</button> 
                 </div>
                 <div class="col-sm">
-                <button>she died of cancer</button>
+                <button class=8>she died of cancer</button>
                 </div>
                 </div>
                 </div>
@@ -178,16 +180,16 @@
             <div class="container">
                 <div class="row">
                 <div class="col-sm">
-                <button>he's a reporter</button> 
+                <button class=9>he's a reporter</button> 
                 </div>
                 <div class="col-sm">
-                <button>he works for the government</button>
+                <button class=9>he works for the government</button>
                 </div>
                 <div class="col-sm">
-                <button>he's a private investigator</button> 
+                <button class=9>he's a private investigator</button> 
                 </div>
                 <div class="col-sm">
-                <button>he's unemployed</button>
+                <button class=9>he's unemployed</button>
                 </div>
                 </div>
                 </div>
@@ -197,23 +199,26 @@
             <div class="container">
                 <div class="row">
                 <div class="col-sm">
-                <button>"should i stay or should i go"</button> 
+                <button class=10>"should i stay or should i go"</button> 
                 </div>
                 <div class="col-sm">
-                <button>"livin' on a prayer"</button>
+                <button class=10>"livin' on a prayer"</button>
                 </div>
                 <div class="col-sm">
-                <button>"eye of the tiger"</button>
+                <button class=10>"eye of the tiger"</button>
                 </div>
                 <div class="col-sm">
-                <button>"somewhere over the rainbow"</button>
+                <button class=10>"somewhere over the rainbow"</button>
                 </div>
                 </div>
                 </div>
-            <br>
+                <button id="SUBMIT">SUBMIT</button>
+            </div>
         </div>
+        <div id="answerBox"></div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/evf-U8he-6o?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <!-- Script -->
-    <script src="assets/javascript/game.js"></script>   
+    <script src="assets/javascript/app.js"></script>   
   </body>
 </html>

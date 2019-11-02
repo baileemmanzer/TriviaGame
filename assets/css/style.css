@@ -1,10 +1,15 @@
 body {
     background-color: black;
+    background: url(../images/stranger-things6.jpg)
 }
 
 #container {
     padding: 75px;
     margin: 75px;
+}
+
+#QUESTIONS {
+    display: none;
 }
 
 h1 {
@@ -28,5 +33,6 @@ div {
     text-align: center;
 }
 
-/* font-family: Benguiat-Bold; 
-@font-face { font-family: Benguiat-Bold; src: url('BenguiatBold.ttf'); } */
+iframe {
+    opacity: 0;
+}
